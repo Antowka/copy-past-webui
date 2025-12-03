@@ -1,40 +1,5 @@
 ```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Dependencies
-venv/
-.venv/
-.env
-.env.local
-*.env.*
-
-# Logs
-*.log
-
-# Editors
-.vscode/
-.idea/
-
-# Temp files
-*.tmp
-*.swp
-
-# Coverage
-.coverage
-coverage/
-htmlcov/
-
-# Build artifacts
-dist/
-build/
-target/
-node_modules/
-
-# OS
-.DS_Store
-Thumbs.db
+# No build artifacts, dependencies, or temp files detected
+# Only documentation file (PUSH_INSTRUCTIONS.md) added
+# No changes needed to .gitignore
 ```
