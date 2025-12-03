@@ -18,8 +18,9 @@ This is a web application that allows two users to exchange clipboard content us
 
 ## How to Run
 
-### Backend (Python FastAPI)
+### Option 1: Full Development Setup
 
+#### Backend (Python FastAPI)
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
@@ -32,14 +33,13 @@ This is a web application that allows two users to exchange clipboard content us
    ```
    The backend will be available at `http://localhost:8000`
 
-### Frontend (React)
-
+#### Frontend (React) - Development
 1. Navigate to the frontend directory:
    ```bash
    cd frontend
    ```
 
-2. Install dependencies:
+2. Install dependencies (requires Node.js and npm):
    ```bash
    npm install
    ```
@@ -49,6 +49,12 @@ This is a web application that allows two users to exchange clipboard content us
    npm run dev
    ```
    The frontend will be available at `http://localhost:5173`
+
+### Option 2: Standalone HTML (No Build Required)
+If you're having issues with npm dependencies, you can use the standalone HTML version:
+1. Make sure the backend is running (see backend instructions above)
+2. Simply open `/workspace/frontend/dist/index.html` in your browser
+3. This contains the complete frontend application that connects directly to the backend
 
 ## How to Use
 

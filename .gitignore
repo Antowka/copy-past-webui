@@ -1,5 +1,54 @@
 ```
-# No build artifacts, dependencies, or temp files detected
-# Only documentation file (PUSH_INSTRUCTIONS.md) added
-# No changes needed to .gitignore
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Build artifacts
+dist/
+build/
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Coverage
+.coverage
+htmlcov/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compression
+*.zip
+*.tar.gz
+*.gz
+*.rar
+*.7z
+
+# Original rules preserved
+*.log
 ```
